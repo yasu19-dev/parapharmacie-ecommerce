@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Valider la commande | Parapharmacie YI — Reçu</title>
+  <style>
+    *{box-sizing:border-box}
+    body{
+      margin:0; background:#f4f6f8; font-family:Inter, Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+      color:#1f2241;
+    }
+    .container{ max-width:900px; margin:0 auto; padding:24px 16px 40px; }
+    .card{
+      max-width:700px; margin:40px auto; background:#fff; border-radius:16px;
+      box-shadow:0 12px 24px rgba(0,0,0,.08); padding:35px;
+    }
+    .alert-success{
+      text-align:center; background:#e8f5e9; color:#1e7e34; padding:14px 16px; border-radius:10px; font-weight:700;
+    }
+    .center{ text-align:center; margin-top:18px; }
+    .btn{ display:inline-block; padding:10px 25px; border-radius:8px; text-decoration:none; font-weight:600; border:none; cursor:pointer; }
+    .btn-secondary{ background:#eef1f4; color:#1f2241; }
+    .section{ margin-top:30px; }
+    .h3{ font-size:22px; font-weight:800; margin:0 0 12px; }
+    .info p{ margin:6px 0; }
+    table{ width:100%; border-collapse:collapse; margin-top:16px; }
+    th, td{ border:1px solid #aaa; padding:10px; text-align:left; }
+    th{ background:#f2f2f2; }
+    .total{ text-align:right; font-weight:800; margin-top:10px; }
+    .btn-print{ margin-top:16px; background:#333; color:#fff; }
+    @media print{ .btn, .btn-print{ display:none; } .card{ box-shadow:none; } }
+    footer{ text-align:center; color:#7b6aa1; padding:18px 0; font-weight:700; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="alert-success">✅ Merci pour votre commande ! Elle a bien été prise en compte.</div>
+
+      <div class="center">
+        <a class="btn btn-secondary" href="#">Retour à l'accueil</a>
+      </div>
+
+      <!-- Reçu statique -->
+      <div class="section">
+        <div class="h3">🧾 Reçu de commande</div>
+
+        <!-- Infos client (exemple) -->
+        <div class="info">
+          <p><strong>Nom :</strong> Dupont</p>
+          <p><strong>Prénom :</strong> Amina</p>
+          <p><strong>Adresse :</strong> 12 Rue des Fleurs, Tanger</p>
+          <p><strong>Téléphone :</strong> +212 6 12 34 56 78</p>
+          <p><strong>Email :</strong> amina.dupont@example.com</p>
+          <p><strong>Date :</strong> 2025-09-29 10:30:00</p>
+        </div>
+
+        <!-- Détails produits (exemple) -->
+        <table>
+          <thead>
+            <tr>
+              <th>Produit</th>
+              <th>Quantité</th>
+              <th>Prix (DH)</th>
+              <th>Total (DH)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Crème Hydratante</td>
+              <td>1</td>
+              <td>129,00</td>
+              <td>129,00</td>
+            </tr>
+            <tr>
+              <td>Sérum Vitamine C</td>
+              <td>2</td>
+              <td>199,00</td>
+              <td>398,00</td>
+            </tr>
+            <tr>
+              <td>Gel Nettoyant</td>
+              <td>1</td>
+              <td>89,00</td>
+              <td>89,00</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p class="total">Total à payer : 616,00 DH</p>
+
+        <button class="btn btn-print" onclick="window.print()">🖨 Imprimer ou enregistrer en PDF</button>
+      </div>
+    </div>
+
+    <footer>© 2025 YI Parapharmacie - Tous droits réservés</footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "nom": "Crème hydratante visage",
+    "prix": 89.90,
+    "image": "../images/creme_visage.jpg"
+  },
+  {
+    "id": 2,
+    "nom": "Shampoing doux",
+    "prix": 59.50,
+    "image": "../images/shampoing.jpg"
+  },
+  {
+    "id": 3,
+    "nom": "Gel douche revitalisant",
+    "prix": 45.00,
+    "image": "../images/gel_douche.jpg"
+  },
+  {
+    "id": 4,
+    "nom": "Crème solaire SPF 50",
+    "prix": 120.00,
+    "image": "../images/creme_solaire.jpg"
+  },
+  {
+    "id": 5,
+    "nom": "Sérum anti-âge",
+    "prix": 150.00,
+    "image": "../images/serum_anti_age.jpg"
+  },
+  {
+    "id": 6,
+    "nom": "Masque purifiant",
+    "prix": 75.00,
+    "image": "../images/masque_purifiant.jpg"
+  },
+  {
+    "id": 7,
+    "nom": "Crème pour les mains",
+    "prix": 30.00,
+    "image": "../images/creme_mains.jpg"
+  },
+  {
+    "id": 8,
+    "nom": "Brosse à cheveux en bambou",
+    "prix": 25.00,
+    "image": "../images/brosse_bambou.jpg"
+  },
+  {
+    "id": 9,
+    "nom": "Huile essentielle de lavande",
+    "prix": 40.00,
+    "image": "../images/huile_lavande.jpg"
+  },
+  {
+    "id": 10,
+    "nom": "Baume à lèvres hydratant",
+    "prix": 15.00,
+    "image": "../images/baume_levres.jpg"
+  },
+  {
+    "id": 11,
+    "nom": "Spray rafraîchissant visage",
+    "prix": 55.00,
+    "image": "../images/spray_visage.webp"
+  },
+  {
+    "id": 12,
+    "nom": "Crème anti-rides contour des yeux",
+    "prix": 110.00,
+    "image": "../images/creme_yeux.jpg"
+  },
+  {
+    "id": 13,
+    "nom": "Gel coiffant naturel",
+    "prix": 35.00,
+    "image": "../images/gel_coiffant.webp"
+  },
+  {
+    "id": 14,
+    "nom": "Savon artisanal à l'argile",
+    "prix": 20.00,
+    "image": "../images/savon_argile.webp"
+  },
+  {
+    "id": 15,
+    "nom": "Crème de nuit régénérante",
+    "prix": 95.00,
+    "image": "../images/creme_nuit.webp"
+  },
+  {
+    "id": 16,
+    "nom": "Lotion tonique hydratante",
+    "prix": 70.00,
+    "image": "../images/lotion_tonique.webp"
+  },
+  {
+    "id": 17,
+    "nom": "Gommage doux pour le corps",
+    "prix": 50.00,
+    "image": "../images/gommage_corps.webp"
+  },
+  {
+    "id": 18,
+    "nom": "Crème dépilatoire douce",
+    "prix": 65.00,
+    "image": "../images/creme_depilatoire.jpg"
+  },
+  {
+    "id": 19,
+    "nom": "Poudre matifiante",
+    "prix": 40.00,
+    "image": "../images/poudre_matifiante.jpg"
+  },
+  {
+    "id": 20,
+    "nom": "Crème apaisante après-soleil",
+    "prix": 85.00,
+    "image": "../images/creme_apaisante.webp"
+  }
+]

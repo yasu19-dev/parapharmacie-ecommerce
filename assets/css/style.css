@@ -1,0 +1,146 @@
+body {
+  background: linear-gradient(to bottom right, #fff0f9, #f5e7ff);
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 30px 0; /* petit padding haut et bas */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+    /* ANIMATIONS */
+    @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes bounceLogo {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-8px);
+      }
+    }
+
+    .card-horizontal {
+      display: flex;
+      flex-direction: row;
+      background-color: #ffffff;
+      border-radius: 25px;
+      box-shadow: 0 12px 24px rgba(190, 120, 220, 0.2);
+      max-width: 960px;
+      width: 95%;
+      overflow: hidden;
+      border: 1px solid #f3d6f4;
+      animation: fadeInUp 1s ease-out forwards;
+    }
+
+    .logo-section {
+      background: linear-gradient(to top, #fce0f4, #f5e7ff);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 50px;
+      flex: 1;
+    }
+
+    .initials {
+      font-family: monospace;
+      font-size: 110px;
+      font-weight: bold;
+      position: relative;
+      width: 120px;
+      height: 110px;
+      animation: bounceLogo 2s ease-in-out infinite;
+    }
+
+    .initial-y {
+      color: #c71585;
+      position: absolute;
+      left: 0;
+    }
+
+    .initial-i {
+      color: #ff69b4;
+      position: absolute;
+      left: 50px;
+    }
+
+    .text-section {
+      flex: 2;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 50px;
+      text-align: center;
+      animation: fadeInUp 1.4s ease forwards;
+    }
+
+    .text-section h1 {
+      color: #a64ca6;
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .text-section p {
+      font-size: 1.2rem;
+      color: #5f3b6c;
+    }
+
+    .btn-custom {
+      background-color: #d63384;
+      color: white;
+      border: none;
+      margin-top: 30px;
+      padding: 10px 25px;
+      font-size: 1rem;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+      animation: fadeInUp 2s ease forwards;
+    }
+
+    .btn-custom:hover {
+      background-color: #b61d6a;
+      transform: scale(1.05);
+    }
+
+    .social-icons {
+      margin-top: 25px;
+      animation: fadeInUp 2.2s ease forwards;
+    }
+
+    .social-icons a {
+      color: #a052a2;
+      margin-right: 15px;
+      font-size: 1.6rem;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #d63384;
+    }
+
+    @media (max-width: 768px) {
+      .card-horizontal {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .text-section {
+        align-items: center;
+        text-align: center;
+      }
+
+      .btn-custom {
+        align-self: center;
+      }
+    }
